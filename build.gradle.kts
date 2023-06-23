@@ -13,5 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+buildscript {
+    repositories {
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
 
-// Root build.gradle.kts
+    dependencies {
+        classpath("com.google.gms:google-services:4.3.14")
+    }
+}
+
+
